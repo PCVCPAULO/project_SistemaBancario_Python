@@ -4,8 +4,8 @@ with open("README.md", "r", encoding="utf-8") as f:
     page_description = f.read() 
 
 setup(
-    name="sistema_bancario",
-    version="0.0.1",
+    name="sistema_bancario_pcvcpaulo",
+    version="0.0.2",
     author="PCVCPAULO",
     author_email="pcvcpaulo@gmail.com",
     description="Simula um sistema bancário",

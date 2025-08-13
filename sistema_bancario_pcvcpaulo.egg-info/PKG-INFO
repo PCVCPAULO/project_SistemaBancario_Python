@@ -1,12 +1,19 @@
-Metadata-Version: 2.1
-Name: sistema-bancario
-Version: 0.0.1
+Metadata-Version: 2.4
+Name: sistema_bancario_pcvcpaulo
+Version: 0.0.2
 Summary: Simula um sistema bancário
 Home-page: https://github.com/PCVCPAULO/project_SistemaBancario_Python
 Author: PCVCPAULO
 Author-email: pcvcpaulo@gmail.com
 Requires-Python: >=3.8
 Description-Content-Type: text/markdown
+Dynamic: author
+Dynamic: author-email
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: requires-python
+Dynamic: summary
 
 ## Desafio_Criacao_Pacotes_em_Python
 Exercício prático - Criar um pacote usando a estrutura simples de um módulo.

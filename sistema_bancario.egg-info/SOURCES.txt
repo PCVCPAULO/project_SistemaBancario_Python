@@ -1,8 +1,0 @@
-README.md
-setup.py
-package_sistema_bancario/__init__.py
-package_sistema_bancario/sistema_bancario.py
-sistema_bancario.egg-info/PKG-INFO
-sistema_bancario.egg-info/SOURCES.txt
-sistema_bancario.egg-info/dependency_links.txt
-sistema_bancario.egg-info/top_level.txt
