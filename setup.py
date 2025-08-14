@@ -1,17 +1,40 @@
-from setuptools import setup, find_packages
+from setuptools import setup
 
 with open("README.md", "r", encoding="utf-8") as f:
-    page_description = f.read() 
+    long_description = f.read() 
 
 setup(
+    # Metadados básicos
     name="sistema_bancario_pcvcpaulo",
-    version="0.0.2",
+    version="0.0.3",
     author="PCVCPAULO",
     author_email="pcvcpaulo@gmail.com",
-    description="Simula um sistema bancário",
-    long_description=page_description,
+
+    # Descrição do projeto
+    description="Simula um sistema bancário.",
+    long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/PCVCPAULO/project_SistemaBancario_Python",
-    packages=find_packages(),
+
+    # Configuração de pacotes
+    packages=['sistema_bancario_pcvcpaulo'], # Nome do pacote Python
+    python_dir={'': '.'}, # Procura o pacote no diretório raiz
     python_requires='>=3.8',
+
+    # URLs do projeto
+    url="https://github.com/PCVCPAULO/project_SistemaBancario_Python",
+
+    # Opcionais
+    classifiers=[
+        "Programming Language :: Python ::3",
+        "License :: OSI Approved :: MIT License",
+        "Operating System :: OS Independent",
+    ],
+    keywords="banco financeiro simulador",
+
+    entry_points={
+        'console_scripts': [
+            'sistema-banario=sistema_bancario_pcvcpaulo.sistema_bancario:main',
+        ],
+    }
+
 )

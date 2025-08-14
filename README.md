@@ -41,8 +41,8 @@ pip install -i https://test.pypi.org/simple/ sistema-bancario-pcvcpaulo==0.0.2
 ## Uso
 
 ``` python
-from nome_do_pacote.module1._name import file1._name
-nome_do_arquivo1.my_function()
+from sistema_bancario_pcvcpaulo import sistema_bancario
+
 ```
 
 ## Autor
