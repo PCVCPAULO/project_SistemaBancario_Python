@@ -35,7 +35,7 @@ Exercício prático - Criar um pacote usando a estrutura simples de um módulo.
 Use o gerenciador de pacotes [pip](https://pip.pypa.io/en/stable/) para instalar o package sistema_bancario_pcvcpaulo
 
 ``` bash
-pip install -i https://test.pypi.org/simple/ sistema-bancario-pcvcpaulo==0.0.2
+pip install -i https://test.pypi.org/simple/ sistema-bancario-pcvcpaulo==0.0.4
 ```
 
 ## Uso

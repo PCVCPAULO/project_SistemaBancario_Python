@@ -6,7 +6,7 @@ with open("README.md", "r", encoding="utf-8") as f:
 setup(
     # Metadados básicos
     name="sistema_bancario_pcvcpaulo",
-    version="0.0.3",
+    version="0.0.4",
     author="PCVCPAULO",
     author_email="pcvcpaulo@gmail.com",
 
@@ -23,12 +23,6 @@ setup(
     # URLs do projeto
     url="https://github.com/PCVCPAULO/project_SistemaBancario_Python",
 
-    # Opcionais
-    classifiers=[
-        "Programming Language :: Python ::3",
-        "License :: OSI Approved :: MIT License",
-        "Operating System :: OS Independent",
-    ],
     keywords="banco financeiro simulador",
 
     entry_points={

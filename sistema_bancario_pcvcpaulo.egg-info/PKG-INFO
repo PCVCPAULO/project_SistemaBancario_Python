@@ -1,19 +1,15 @@
 Metadata-Version: 2.4
 Name: sistema_bancario_pcvcpaulo
-Version: 0.0.3
+Version: 0.0.4
 Summary: Simula um sistema bancário.
 Home-page: https://github.com/PCVCPAULO/project_SistemaBancario_Python
 Author: PCVCPAULO
 Author-email: pcvcpaulo@gmail.com
 Keywords: banco financeiro simulador
-Classifier: Programming Language :: Python ::3
-Classifier: License :: OSI Approved :: MIT License
-Classifier: Operating System :: OS Independent
 Requires-Python: >=3.8
 Description-Content-Type: text/markdown
 Dynamic: author
 Dynamic: author-email
-Dynamic: classifier
 Dynamic: description
 Dynamic: description-content-type
 Dynamic: home-page
@@ -58,7 +54,7 @@ Exercício prático - Criar um pacote usando a estrutura simples de um módulo.
 Use o gerenciador de pacotes [pip](https://pip.pypa.io/en/stable/) para instalar o package sistema_bancario_pcvcpaulo
 
 ``` bash
-pip install -i https://test.pypi.org/simple/ sistema-bancario-pcvcpaulo==0.0.2
+pip install -i https://test.pypi.org/simple/ sistema-bancario-pcvcpaulo==0.0.4
 ```
 
 ## Uso
