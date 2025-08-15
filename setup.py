@@ -6,7 +6,7 @@ with open("README.md", "r", encoding="utf-8") as f:
 setup(
     # Metadados básicos
     name="sistema_bancario_pcvcpaulo",
-    version="0.0.4",
+    version="0.0.1",
     author="PCVCPAULO",
     author_email="pcvcpaulo@gmail.com",
 
